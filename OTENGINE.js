@@ -46,7 +46,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpe8e84no0.js
+// include: /tmp/tmpbhtwqzz8.js
 Module["expectedDataFileDownloads"] ??= 0;
 
 Module["expectedDataFileDownloads"]++;
@@ -154,6 +154,7 @@ Module["expectedDataFileDownloads"]++;
       Module["FS_createPath"]("/GameData", "Maps", true, true);
       Module["FS_createPath"]("/GameData/Maps", "Area1", true, true);
       Module["FS_createPath"]("/GameData/Maps", "Area2", true, true);
+      Module["FS_createPath"]("/GameData/Maps", "Area3", true, true);
       Module["FS_createPath"]("/GameData", "Music", true, true);
       Module["FS_createPath"]("/GameData", "UI", true, true);
       /** @constructor */ function DataRequest(start, end, audio) {
@@ -229,96 +230,139 @@ Module["expectedDataFileDownloads"]++;
       "start": 807,
       "end": 1356
     }, {
-      "filename": "/GameData/DrillParts/Cores/Vien.png",
+      "filename": "/GameData/DrillParts/Cores/RB.png",
       "start": 1356,
-      "end": 1762
+      "end": 1818
+    }, {
+      "filename": "/GameData/DrillParts/Cores/Vien.png",
+      "start": 1818,
+      "end": 2224
     }, {
       "filename": "/GameData/DrillParts/Cores/Void.png",
-      "start": 1762,
-      "end": 2138
+      "start": 2224,
+      "end": 2600
     }, {
       "filename": "/GameData/DrillParts/Hats/Quads.png",
-      "start": 2138,
-      "end": 2445
+      "start": 2600,
+      "end": 2907
+    }, {
+      "filename": "/GameData/DrillParts/Hats/QuadsProjectile.png",
+      "start": 2907,
+      "end": 3134
     }, {
       "filename": "/GameData/DrillParts/Hats/Valkery.png",
-      "start": 2445,
-      "end": 2807
+      "start": 3134,
+      "end": 3495
+    }, {
+      "filename": "/GameData/DrillParts/Hats/ValkeryProjectile.png",
+      "start": 3495,
+      "end": 3704
     }, {
       "filename": "/GameData/DrillParts/Primarys/Crooks.png",
-      "start": 2807,
-      "end": 3377
+      "start": 3704,
+      "end": 4274
     }, {
       "filename": "/GameData/DrillParts/Primarys/FireKnives.png",
-      "start": 3377,
-      "end": 3873
+      "start": 4274,
+      "end": 4770
     }, {
       "filename": "/GameData/DrillParts/Primarys/Lance.png",
-      "start": 3873,
-      "end": 4236
+      "start": 4770,
+      "end": 5133
     }, {
       "filename": "/GameData/DrillParts/Trace.png",
-      "start": 4236,
-      "end": 4975
+      "start": 5133,
+      "end": 5872
     }, {
       "filename": "/GameData/DrillParts/Trace.png.kra",
-      "start": 4975,
-      "end": 39177
+      "start": 5872,
+      "end": 40074
     }, {
       "filename": "/GameData/DrillParts/pixil-frame-0.png",
-      "start": 39177,
-      "end": 39536
+      "start": 40074,
+      "end": 40433
     }, {
       "filename": "/GameData/Maps/Area1/Area1.png",
-      "start": 39536,
-      "end": 44393
+      "start": 40433,
+      "end": 45290
     }, {
-      "filename": "/GameData/Maps/Area2/Area1.png",
-      "start": 44393,
-      "end": 47211
+      "filename": "/GameData/Maps/Area2/Area2.png",
+      "start": 45290,
+      "end": 48108
+    }, {
+      "filename": "/GameData/Maps/Area3/Area3.png",
+      "start": 48108,
+      "end": 53737
     }, {
       "filename": "/GameData/Music/Home.mp3",
-      "start": 47211,
-      "end": 969437,
+      "start": 53737,
+      "end": 975963,
       "audio": 1
     }, {
       "filename": "/GameData/UI/Blank.png",
-      "start": 969437,
-      "end": 974129
+      "start": 975963,
+      "end": 980655
     }, {
       "filename": "/GameData/UI/DrillSelect.png",
-      "start": 974129,
-      "end": 983024
+      "start": 980655,
+      "end": 988756
     }, {
       "filename": "/GameData/UI/HealthBars.png",
-      "start": 983024,
-      "end": 984825
+      "start": 988756,
+      "end": 990557
     }, {
       "filename": "/GameData/UI/HomeScreen.png",
-      "start": 984825,
-      "end": 991270
+      "start": 990557,
+      "end": 996530
+    }, {
+      "filename": "/GameData/UI/MapSelect.png",
+      "start": 996530,
+      "end": 1001598
+    }, {
+      "filename": "/GameData/UI/MenuClick.mp3",
+      "start": 1001598,
+      "end": 1079338,
+      "audio": 1
+    }, {
+      "filename": "/GameData/UI/P1Wins.png",
+      "start": 1079338,
+      "end": 1081732
+    }, {
+      "filename": "/GameData/UI/P2Wins.png",
+      "start": 1081732,
+      "end": 1084163
+    }, {
+      "filename": "/GameData/UI/Smash.mp3",
+      "start": 1084163,
+      "end": 1161903,
+      "audio": 1
+    }, {
+      "filename": "/GameData/UI/Spin.mp3",
+      "start": 1161903,
+      "end": 1166440,
+      "audio": 1
     } ],
-    "remote_package_size": 991270
+    "remote_package_size": 1166440
   });
 })();
 
-// end include: /tmp/tmpe8e84no0.js
-// include: /tmp/tmps4gltc0y.js
+// end include: /tmp/tmpbhtwqzz8.js
+// include: /tmp/tmpqho9pqly.js
 // All the pre-js content up to here must remain later on, we need to run
 // it.
 if (Module["$ww"] || (typeof ENVIRONMENT_IS_PTHREAD != "undefined" && ENVIRONMENT_IS_PTHREAD)) Module["preRun"] = [];
 
 var necessaryPreJSTasks = Module["preRun"].slice();
 
-// end include: /tmp/tmps4gltc0y.js
-// include: /tmp/tmpldv8wvo_.js
+// end include: /tmp/tmpqho9pqly.js
+// include: /tmp/tmpwg0d4akv.js
 if (!Module["preRun"]) throw "Module.preRun should exist because file support used it; did a pre-js delete it?";
 
 necessaryPreJSTasks.forEach(task => {
   if (Module["preRun"].indexOf(task) < 0) throw "All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?";
 });
 
-// end include: /tmp/tmpldv8wvo_.js
+// end include: /tmp/tmpwg0d4akv.js
 var arguments_ = [];
 
 var thisProgram = "./this.program";
